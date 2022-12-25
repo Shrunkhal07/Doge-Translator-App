@@ -1,0 +1,37 @@
+body{
+    text-align:center;
+}
+
+.container{
+    max-width: 600px;
+    margin: auto;
+}
+
+#output{
+    padding: 1rem;
+    width: 80%;
+    height: 10vh;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+#heading{
+    padding: 1.5rem;
+    background-color: #fde24f;
+    color: #00473e;
+    text-align: left;
+    animation: forwards;
+    
+}
+
+
+
+
+#btn-translate{
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    color: #00214d;
+    font-weight: bold;
+    font-size: larger;
+    background-color: #eab308;
+}
