@@ -13,14 +13,17 @@ body{
     height: 10vh;
     margin: 1rem;
     border: 1px solid black;
+    background: white;
 }
 
 #heading{
     padding: 1.5rem;
     background-color: #fde24f;
-    color: #00473e;
-    text-align: left;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     animation: forwards;
+    background: rgb(226,226,50);
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
     
 }
 
@@ -30,8 +33,21 @@ body{
 #btn-translate{
     padding: 1rem 1rem;
     margin-top: 1rem;
-    color: #00214d;
+    color: white;
     font-weight: bold;
     font-size: larger;
-    background-color: #eab308;
+    background-image: linear-gradient(to right, #F09819 0%, #EDDE5D  51%, #F09819  100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 0 20px #eee;
+    border: none;
 }
+
+#btn-translate:hover{
+    background-position: left center;
+    color: #fff;
+}
+
+.bg{background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    }
