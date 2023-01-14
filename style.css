@@ -41,6 +41,7 @@ body{
     background-size: 200% auto;
     box-shadow: 0 0 20px #eee;
     border: none;
+    cursor: pointer;
 }
 
 #btn-translate:hover{
