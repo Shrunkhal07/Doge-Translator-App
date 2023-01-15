@@ -31,9 +31,15 @@ function clickHandler() {
 }
 
 function errorHandler(){
-    errorMessage.innerText = "Server is not working properlytry after sometime"
+    
+        outputDiv.innerHTML = "Server is not working properly, try after sometime";
+        outputDiv.style.color = "red";
+        outputDiv.style.fontWeight = "bold";
+    }
+    
+   // errorMessage.innerText = "Server is not working properlytry after sometime"
 
-}
+
 btnTranslate.addEventListener("click", clickHandler);
 
 
